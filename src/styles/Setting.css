@@ -1,0 +1,51 @@
+.settings {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.settings h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.settings div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.settings label {
+  font-size: 1rem;
+  color: #555;
+}
+
+.settings select,
+.settings input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.settings button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.settings button:hover {
+  background: linear-gradient(90deg, #5b86e5, #36d1dc);
+}

@@ -1,0 +1,49 @@
+{
+  "name": "memory-card-game",
+  "version": "1.0.0",
+  "description": "A memory card game built with React",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "@tanstack/react-query": "^5.45.0",
+    "administration": "file:",
+    "antd": "^5.22.2",
+    "axios": "^1.7.7",
+    "chroma-js": "^2.4.2",
+    "memory-card-game": "file:",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-highlight-words": "^0.20.0",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.0"
+  },
+  "keywords": [
+    "memory",
+    "game",
+    "react",
+    "cards"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "http://localhost:5173/"
+}
